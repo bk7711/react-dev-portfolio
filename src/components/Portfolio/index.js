@@ -46,7 +46,7 @@ const Portfolio = () => {
           <img
             className="image"
             src={require("../../assets/images/mainpage.png")}
-            alt="Card image cap"
+            alt="weather dashboard"
           />
           <button className="btn">
             <a href="https://trb5160.github.io/Project-1/">View website</a>

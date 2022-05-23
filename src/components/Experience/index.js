@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import Modal from "../Modal";
 
 const Experience = () => {
   return (
@@ -7,9 +8,7 @@ const Experience = () => {
       <h2 id="left-title">
         Experience
         <br />
-        <button className="btn">
-          <a href="./assets/images/resume.pdf">Resume</a>
-        </button>
+        <button className="btn">Resume</button>
       </h2>
       <div className="career">
         <ul>
