@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-dev-portfolio/static/css/main.3d9bcbfd.css",
+    "main.js": "/react-dev-portfolio/static/js/main.2cf2fe22.js",
+    "static/js/787.0ebcec11.chunk.js": "/react-dev-portfolio/static/js/787.0ebcec11.chunk.js",
+    "static/media/floatingBook.jpg": "/react-dev-portfolio/static/media/floatingBook.39c85209caa93128d3c4.jpg",
+    "static/media/coding.jpg": "/react-dev-portfolio/static/media/coding.b9e62f15de103285b92c.jpg",
+    "static/media/runbuddy.png": "/react-dev-portfolio/static/media/runbuddy.2514ee205cdfe7fd0cd0.png",
+    "static/media/boardroom.jpg": "/react-dev-portfolio/static/media/boardroom.8d9672fae6bcbec6f915.jpg",
+    "static/media/mainpage.png": "/react-dev-portfolio/static/media/mainpage.1751d83b20251d747561.png",
+    "static/media/wooddesk.jpg": "/react-dev-portfolio/static/media/wooddesk.ba9418f56435b1ad9370.jpg",
+    "static/media/weather.png": "/react-dev-portfolio/static/media/weather.af132c358db8357c4b52.png",
+    "static/media/webpage.png": "/react-dev-portfolio/static/media/webpage.25cbc390d7907de03194.png",
+    "static/media/center.jpg": "/react-dev-portfolio/static/media/center.7db6cb7b399246725937.jpg",
+    "static/media/headshot.jpg": "/react-dev-portfolio/static/media/headshot.7056e8013630b16ea1bb.jpg",
+    "static/media/password.png": "/react-dev-portfolio/static/media/password.c9d1aa0aed1324e5db9c.png",
+    "index.html": "/react-dev-portfolio/index.html",
+    "main.3d9bcbfd.css.map": "/react-dev-portfolio/static/css/main.3d9bcbfd.css.map",
+    "main.2cf2fe22.js.map": "/react-dev-portfolio/static/js/main.2cf2fe22.js.map",
+    "787.0ebcec11.chunk.js.map": "/react-dev-portfolio/static/js/787.0ebcec11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d9bcbfd.css",
+    "static/js/main.2cf2fe22.js"
+  ]
+}
