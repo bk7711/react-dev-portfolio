@@ -1,0 +1,109 @@
+.education h2 {
+  flex: 0 9%;
+}
+.alledu {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 5 600px;
+}
+.eachSchool {
+  padding: 30px;
+  max-width: 450px;
+  text-align: center;
+  display: flex;
+  flex: 3 5 30%;
+  flex-direction: column;
+}
+.alledu div:nth-child(2) {
+  border-right: 2px solid var(--dark);
+  border-left: 2px solid var(--dark);
+}
+.alledu div table {
+  align-items: center;
+}
+.school {
+  font-size: 1.5vw;
+}
+table {
+  margin: 25px 15px;
+}
+.grad-year {
+  padding: 5px 20px;
+  font-size: 1vw;
+}
+.grad-title {
+  padding: 5px 20px;
+}
+.grad-title h4 {
+  font-size: 1.2vw;
+}
+.grad-title p {
+  font-size: 0.9vw;
+}
+.t-row {
+  text-align: center;
+  margin: 0px;
+}
+/* end of education section */
+
+@media screen and (max-width: 1200px) {
+  /* education section */
+  .education {
+    max-width: 100vw;
+  }
+  .alledu {
+    flex-direction: column;
+  }
+  .eachSchool {
+    max-width: 400px;
+    align-content: space-around;
+  }
+  .alledu div:nth-child(2) {
+    border: none;
+  }
+  .school {
+    font-size: 25px;
+  }
+  .grad-year h4 {
+    font-size: 15px;
+  }
+  .grad-title h4 {
+    font-size: 20px;
+  }
+  .grad-title p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .eachSchool {
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .education {
+    flex-wrap: wrap;
+  }
+  .school {
+    font-size: 20px;
+  }
+  .grad-year h4 {
+    font-size: 10px;
+  }
+  .grad-title h4 {
+    font-size: 15px;
+  }
+  .grad-title p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .eachSchool {
+    width: 100%;
+    padding: 0;
+  }
+  .education {
+    flex-wrap: wrap;
+  }
+}
