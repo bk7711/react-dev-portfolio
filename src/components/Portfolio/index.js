@@ -2,20 +2,43 @@ import React from "react";
 import "./Portfolio.css";
 
 const Portfolio = () => {
+  const [languages] = useState([
+    {
+      name: "html",
+      description: "Projects completed with HTML, CSS, and JavaScript",
+    },
+    {
+      name: "node",
+      description: "Projects completed with Node.js",
+    },
+    {
+      name: "mysql",
+      description: "Projects completed with a MySql database",
+    },
+    {
+      name: "mongo",
+      description: "Projects completed with MongoDB",
+    },
+    {
+      name: "mern",
+      description: "Projects completed React or a complete MERN stack",
+    },
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <section id="portfolio" className="components">
       <div>
         <h2>Portfolio</h2>
         <ul className="category">
-          <li className="categories">LANGUAGES</li>
+          <li className="categories">CATEGORIES</li>
           <li className="categories">
             <a href="#html">HTML/CSS/JS</a>
           </li>
           <li className="categories">
             <a href="#node">Node.js</a>
-          </li>
-          <li className="categories">
-            <a href="#express">Express.js</a>
           </li>
           <li className="categories">
             <a href="#mysql">MySQL</a>
