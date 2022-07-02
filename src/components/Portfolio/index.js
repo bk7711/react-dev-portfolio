@@ -4,8 +4,30 @@ import "./Portfolio.css";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="components">
-      <h2>Portfolio</h2>
-
+      <div>
+        <h2>Portfolio</h2>
+        <ul className="category">
+          <li className="categories">LANGUAGES</li>
+          <li className="categories">
+            <a href="#html">HTML/CSS/JS</a>
+          </li>
+          <li className="categories">
+            <a href="#node">Node.js</a>
+          </li>
+          <li className="categories">
+            <a href="#express">Express.js</a>
+          </li>
+          <li className="categories">
+            <a href="#mysql">MySQL</a>
+          </li>
+          <li className="categories">
+            <a href="#mongo">MongoDB</a>
+          </li>
+          <li className="categories">
+            <a href="#mern">MERN Stack</a>
+          </li>
+        </ul>
+      </div>
       <div className="portfolio">
         <div className="sites" id="port-one">
           <button className="btn">

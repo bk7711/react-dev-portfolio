@@ -120,7 +120,26 @@
     margin: 0;
   }
 }
-
+.category {
+  margin: 15px 0;
+}
+.categories {
+  color: var(--light);
+  list-style-type: none;
+}
+.categories a:link {
+  text-decoration: none;
+  color: var(--light);
+}
+.categories a:hover {
+  text-shadow: 2px 1px 1px var(--blues);
+}
+.categories a:visited {
+  color: var(--light);
+}
+.categories:first-of-type {
+  text-decoration: underline;
+}
 @media screen and (max-width: 768px) {
   #portfolio {
     padding: 0;

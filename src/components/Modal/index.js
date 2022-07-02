@@ -1,6 +1,7 @@
 import React from "react";
 
-function Modal() {
+const Modal = ({ onClose, currentPhoto }) => {
+  const { name, description, category, index } = currentPhoto;
   return (
     <div className="modalBackdrop">
       <div className="modalContainer">
@@ -10,6 +11,6 @@ function Modal() {
       </div>
     </div>
   );
-}
+};
 
 export default Modal;
