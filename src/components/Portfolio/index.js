@@ -2,32 +2,32 @@ import React from "react";
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  const [languages] = useState([
-    {
-      name: "html",
-      description: "Projects completed with HTML, CSS, and JavaScript",
-    },
-    {
-      name: "node",
-      description: "Projects completed with Node.js",
-    },
-    {
-      name: "mysql",
-      description: "Projects completed with a MySql database",
-    },
-    {
-      name: "mongo",
-      description: "Projects completed with MongoDB",
-    },
-    {
-      name: "mern",
-      description: "Projects completed React or a complete MERN stack",
-    },
-  ]);
+  // const [languages] = useState([
+  //   {
+  //     name: "html",
+  //     description: "Projects completed with HTML, CSS, and JavaScript",
+  //   },
+  //   {
+  //     name: "node",
+  //     description: "Projects completed with Node.js",
+  //   },
+  //   {
+  //     name: "mysql",
+  //     description: "Projects completed with a MySql database",
+  //   },
+  //   {
+  //     name: "mongo",
+  //     description: "Projects completed with MongoDB",
+  //   },
+  //   {
+  //     name: "mern",
+  //     description: "Projects completed React or a complete MERN stack",
+  //   },
+  // ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
+  // const [contactSelected, setContactSelected] = useState(false);
   return (
     <section id="portfolio" className="components">
       <div>
@@ -58,7 +58,7 @@ const Portfolio = () => {
           </button>
           <img
             className="image"
-            src={require("../../assets/images/runbuddy.png")}
+            src={require("../../assets/images/html/runbuddy.png")}
             alt="Run Buddy"
           />
           <div className="card-body">
@@ -71,7 +71,7 @@ const Portfolio = () => {
         <div className="sites" id="port-two">
           <img
             className="image"
-            src={require("../../assets/images/weather.png")}
+            src={require("../../assets/images/html/weather.png")}
             alt="Weather app"
           />
           <button className="btn">
@@ -128,7 +128,7 @@ const Portfolio = () => {
           </button>
           <img
             className="image"
-            src={require("../../assets/images/password.png")}
+            src={require("../../assets/images/html/password.png")}
             alt="Password Generator"
           />
           <div className="card-body">
